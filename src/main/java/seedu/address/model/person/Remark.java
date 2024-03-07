@@ -31,7 +31,7 @@ public class Remark {
         }
 
         Remark otherRemark = (Remark) other;
-        return value.equals(otherRemark.value);
+        return value.equals(otherRemark.value); // state check
     }
 
     @Override
